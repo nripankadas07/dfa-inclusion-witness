@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-20",
+  "comparables": [
+    {
+      "full_name": "rust-lang/regex",
+      "html_url": "https://github.com/rust-lang/regex",
+      "stargazers_count": 4044,
+      "pushed_at": "2026-10-19T17:59:23Z",
+      "default_branch": "master",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "description": "An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs.",
+      "observed": "2026-10-20",
+      "recent_open_items": [
+        {
+          "number": 1401,
+          "title": "syntax: don't lift alternation prefixes that can match more than one way",
+          "url": "https://github.com/rust-lang/regex/pull/1401",
+          "is_pr": true
+        },
+        {
+          "number": 1400,
+          "title": "wrong leftmost-first match when alternation branches start with the same repetition",
+          "url": "https://github.com/rust-lang/regex/issues/1400",
+          "is_pr": false
+        },
+        {
+          "number": 1399,
+          "title": "syntax: fix class negation across the surrogate gap",
+          "url": "https://github.com/rust-lang/regex/pull/1399",
+          "is_pr": true
+        }
+      ]
+    },
+    {
+      "full_name": "caleb531/automata",
+      "html_url": "https://github.com/caleb531/automata",
+      "stargazers_count": 412,
+      "pushed_at": "2026-06-25T19:41:27Z",
+      "default_branch": "main",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "description": "A Python library for simulating finite automata, pushdown automata, and Turing machines",
+      "observed": "2026-10-20T06:13:34.168Z",
+      "recent_open_items": [
+        {
+          "number": 287,
+          "title": "Allowing NFAs to have multiple initial states",
+          "url": "https://github.com/caleb531/automata/issues/287",
+          "is_pr": false
+        },
+        {
+          "number": 285,
+          "title": "Adjust types (and interface) such that automatons work with arbitrary python objects",
+          "url": "https://github.com/caleb531/automata/issues/285",
+          "is_pr": false
+        },
+        {
+          "number": 267,
+          "title": "Split up tests across multiple files",
+          "url": "https://github.com/caleb531/automata/issues/267",
+          "is_pr": false
+        }
+      ]
+    },
+    {
+      "full_name": "cs-au-dk/dk.brics.automaton",
+      "html_url": "https://github.com/cs-au-dk/dk.brics.automaton",
+      "stargazers_count": 248,
+      "pushed_at": "2025-09-14T11:53:41Z",
+      "default_branch": "master",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "description": "dk.brics.automaton - finite-state automata and regular expressions for Java",
+      "observed": "2026-10-20",
+      "recent_open_items": [
+        {
+          "number": 53,
+          "title": "Fix some edge cases with RegExp parsing",
+          "url": "https://github.com/cs-au-dk/dk.brics.automaton/pull/53",
+          "is_pr": true
+        },
+        {
+          "number": 52,
+          "title": "RegExp parsing edge cases",
+          "url": "https://github.com/cs-au-dk/dk.brics.automaton/issues/52",
+          "is_pr": false
+        },
+        {
+          "number": 44,
+          "title": "Add support for JPMS modules",
+          "url": "https://github.com/cs-au-dk/dk.brics.automaton/issues/44",
+          "is_pr": false
+        }
+      ]
+    }
+  ],
+  "query": {
+    "query": "finite automata",
+    "url": "https://github.com/search?q=finite+automata&type=repositories&s=stars&o=desc",
+    "observed": "2026-10-20T06:20:50.071Z"
+  },
+  "highest_star_relevant_found": "rust-lang/regex",
+  "limits": "Most-stars site search is scoped and keyword dependent, not an exhaustive global ranking. Also read manually found established comparables. Some leading keyword results are adjacent or irrelevant. Competitors not installed/timed/stress tested. No absence, reliability, superiority or performance claim. Issues/PRs are small current samples, not evidence of an unresolved competitor-wide defect.",
+  "read_sources": "Current repository READMEs, metadata and sampled issues; relevant implementations/fixtures for SQLGlot simplify, NetworkX DAG, criticalpath, PM4Py/SNAKES Petri semantics, OSRM restrictions and automata/brics inclusion. No source copied."
+}

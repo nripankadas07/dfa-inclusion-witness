@@ -1,0 +1,23 @@
+{
+  "counterexample_tokens": [
+    "a",
+    "b"
+  ],
+  "discovered_pairs": 4,
+  "exit_code": 1,
+  "included": false,
+  "trace": [
+    {
+      "left": "s",
+      "right": "s"
+    },
+    {
+      "left": "ok",
+      "right": "ok"
+    },
+    {
+      "left": "ok",
+      "right": null
+    }
+  ]
+}

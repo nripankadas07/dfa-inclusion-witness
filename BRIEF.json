@@ -1,0 +1,35 @@
+{
+  "occurrence": "GH-20261020",
+  "state": "VALIDATED",
+  "demand": "Inferred from the workflow and domain evidence; no verified request for this new tool.",
+  "acceptance": [
+    "Invented example returns tokens[a,b]; left accepts while right enters its implicit rejecting sink.",
+    "640 small complete DFA pairs checked against exhaustive words through length3 (four product states imply shortest witness\u22643), partial sinks, empty word, empty alphabet and nondeterministic transition rejection.",
+    "Clean wheel install and installed CLI outside checkout; meaningful invalid input rejection without partial JSON."
+  ],
+  "discovery": "Public searchable README/topics and reproducible tiny examples; no outreach, adoption or growth claim.",
+  "inventory_compared": 203,
+  "mutual_distinction": "Nullable query predicates, dependency timing, token synchronization, road turn feasibility and finite-language inclusion have separate users and contracts. Shared packaging is infrastructure.",
+  "originality": "Original code and invented fixtures, AI-assisted. No third-party implementation or prose copied; standard algorithms reimplemented.",
+  "repo": "dfa-inclusion-witness",
+  "user": "Parser/protocol engineers checking that an explicit finite recognizer change preserves accepted token sequences.",
+  "pain": "A failing inclusion comparison needs a small reproducible sequence and both state traces; a finite test corpus cannot establish language inclusion.",
+  "capability": "Explore the finite DFA product to prove left-language inclusion or return a shortest token counterexample with both state traces.",
+  "alternatives": [
+    "rust-lang/regex",
+    "caleb531/automata",
+    "cs-au-dk/dk.brics.automaton"
+  ],
+  "query": "finite automata",
+  "highest": "rust-lang/regex",
+  "topics": [
+    "automata",
+    "dfa",
+    "counterexample",
+    "python"
+  ],
+  "expected": "Invented example returns tokens[a,b]; left accepts while right enters its implicit rejecting sink.",
+  "limits": "Explicit deterministic finite automata only; at most100 states and5000 transitions per machine and32 alphabet tokens. Tokens are nonempty named symbols, not characters to concatenate; the empty-word witness is[]. Missing transitions go to an implicit absorbing rejecting sink represented by null. No regex parser, epsilon/NFA, pushdown/B\u00fcchi automata, minimization or equivalence claim from one-way inclusion. Reverse the inputs for the other direction. Sorted tokens resolve shortest-witness ties. At most10201 reachable product pairs.",
+  "distinct": "rup-proof-trace checks clause proof steps and spdx-expression-paths enumerates license alternatives. This checks inclusion of finite token languages and produces a counterexample, not SAT or grammar parsing.",
+  "checks": "640 small complete DFA pairs checked against exhaustive words through length3 (four product states imply shortest witness\u22643), partial sinks, empty word, empty alphabet and nondeterministic transition rejection."
+}
