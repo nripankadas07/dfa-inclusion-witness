@@ -1,0 +1,80 @@
+{
+  "state": "VALIDATED",
+  "occurrence": "GH-20261020",
+  "observed": "2026-10-20T06:29:36.878546+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "commands": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "test_empty_word (test_contract.Contract.test_empty_word) ... ok\ntest_input_unchanged (test_contract.Contract.test_input_unchanged) ... ok\ntest_nondeterminism_and_unknown (test_contract.Contract.test_nondeterminism_and_unknown) ... ok\ntest_partial_sink_and_inclusion (test_contract.Contract.test_partial_sink_and_inclusion) ... ok\ntest_shortest_token_witness (test_contract.Contract.test_shortest_token_witness) ... ok\ntest_small_complete_dfa_enumeration (test_contract.Contract.test_small_complete_dfa_enumeration) ... ok\ntest_strict_cli_failures (test_contract.Contract.test_strict_cli_failures) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.194s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "dfa_inclusion_witness.py"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pip",
+        "wheel",
+        "--no-deps",
+        "--no-build-isolation",
+        ".",
+        "-w",
+        "dist"
+      ],
+      "exit": 0,
+      "stdout": "Processing ./.\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: dfa-inclusion-witness\n  Building wheel for dfa-inclusion-witness (pyproject.toml): started\n  Building wheel for dfa-inclusion-witness (pyproject.toml): finished with status 'done'\n  Created wheel for dfa-inclusion-witness: filename=dfa_inclusion_witness-0.1.0-py3-none-any.whl size=6615 sha256=e39a3771281d45e592e884306177b1aaaa5ac5ee17f2529e7eb23ad91b75aaec\n  Stored in directory: /tmp/pip-ephem-wheel-cache-ml796mwi/wheels/60/e6/83/eff0baceb8ed67217a7df406b3cd7d726f3994c3d84859dcc1\nSuccessfully built dfa-inclusion-witness\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/tmp/fresh-console-detootz0/venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "/workspace/scratch/5d784ffbbfd3/prepared-oct20/dfa-inclusion-witness/dist/dfa_inclusion_witness-0.1.0-py3-none-any.whl"
+      ],
+      "exit": 0,
+      "stdout": "Processing /workspace/scratch/5d784ffbbfd3/prepared-oct20/dfa-inclusion-witness/dist/dfa_inclusion_witness-0.1.0-py3-none-any.whl\nInstalling collected packages: dfa-inclusion-witness\nSuccessfully installed dfa-inclusion-witness-0.1.0\n",
+      "stderr": "\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: python -m pip install --upgrade pip\n"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/5d784ffbbfd3/prepared-oct20/dfa-inclusion-witness/verify_installed.py",
+        "/tmp/fresh-console-detootz0/venv/bin/python"
+      ],
+      "exit": 0,
+      "stdout": "{\"installed_console\": true, \"outside_checkout\": true, \"expected_results\": true, \"meaningful_failure_case\": true, \"source_unchanged\": true, \"input_sha256\": \"55ea9ba63028600ad47183cbfb3086df2845f0859e4306222b6627cc5041484c\"}\n",
+      "stderr": ""
+    }
+  ],
+  "installed": {
+    "installed_console": true,
+    "outside_checkout": true,
+    "expected_results": true,
+    "meaningful_failure_case": true,
+    "source_unchanged": true,
+    "input_sha256": "55ea9ba63028600ad47183cbfb3086df2845f0859e4306222b6627cc5041484c"
+  },
+  "limits": "Local wheel build uses installed build tools without isolation due environment network; remote CI uses normal isolated pip wheel build, a fresh venv and actual installed console. Linux only. No competitor performance benchmark."
+}

@@ -1,0 +1,45 @@
+{
+  "alphabet": [
+    "a",
+    "b"
+  ],
+  "left": {
+    "states": [
+      "s",
+      "ok"
+    ],
+    "start": "s",
+    "accept": [
+      "ok"
+    ],
+    "transitions": [
+      {
+        "from": "s",
+        "symbol": "a",
+        "to": "ok"
+      },
+      {
+        "from": "ok",
+        "symbol": "b",
+        "to": "ok"
+      }
+    ]
+  },
+  "right": {
+    "states": [
+      "s",
+      "ok"
+    ],
+    "start": "s",
+    "accept": [
+      "ok"
+    ],
+    "transitions": [
+      {
+        "from": "s",
+        "symbol": "a",
+        "to": "ok"
+      }
+    ]
+  }
+}

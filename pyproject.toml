@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "dfa-inclusion-witness"
+version = "0.1.0"
+description = "Explore the finite DFA product to prove left-language inclusion or return a shortest token counterexample with both state traces."
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = []
+[project.scripts]
+dfa-inclusion-witness = "dfa_inclusion_witness:main"
+[tool.setuptools]
+py-modules = ["dfa_inclusion_witness"]
